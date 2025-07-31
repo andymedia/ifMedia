@@ -33,7 +33,7 @@ for(let i=0;i<POINTS;i++) {
 
 // Pozícia myši pre interaktivitu
 let mouse = {x: width/2, y: height/2};
-canvas.addEventListener("mousemove", e => {
+window.addEventListener("mousemove", e => {
     mouse.x = e.clientX;
     mouse.y = e.clientY;
 });
