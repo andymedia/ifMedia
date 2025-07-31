@@ -1,0 +1,6 @@
+# Dočasné súbory operačného systému a editorov
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
