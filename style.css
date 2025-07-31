@@ -1,9 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    text-align: center;
+html, body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+body {
+    /* background: #f5f5f5;  <-- túto farbu môžeš dať preč, lebo gradient pozadia robí JS */
 }
 h1 {
     color: #3178c6;
@@ -15,12 +21,6 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-}
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
 }
 #bg-canvas {
     position: fixed;
